@@ -1,2 +1,3 @@
 # JailbreakDetector
-Simple Jailbreak Detection in Swift
+
+A description of this package.
