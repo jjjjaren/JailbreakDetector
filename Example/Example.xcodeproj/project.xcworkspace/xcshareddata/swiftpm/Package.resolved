@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JailbreakDetector",
+        "repositoryURL": "https://github.com/jjjjaren/JailbreakDetector",
+        "state": {
+          "branch": null,
+          "revision": "dc5a4d31d98e2ca621bb23d60c7cc7e3413c34f7",
+          "version": "0.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

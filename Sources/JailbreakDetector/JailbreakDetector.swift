@@ -6,7 +6,7 @@
 //  Copyright © 2019 HamblinSoft. All rights reserved.
 //
 
-///
+/// A convenient interface for checking if the current device is Jailbroken.
 public class JailbreakDetector {
 
     private init() {}
@@ -14,11 +14,12 @@ public class JailbreakDetector {
 
 #if os(iOS)
 import UIKit
-///
+
 extension JailbreakDetector {
 
-    ///
+    /// Returns whether the current device is jailbroken or not.
     public static func isDeviceJailBroken() -> Bool {
+        FileManager.default
         if TARGET_IPHONE_SIMULATOR != 1 {
             // Check 1 : existence of files that are common for jailbroken devices
             if FileManager.default.fileExists(atPath: "/Applications/Cydia.app")
